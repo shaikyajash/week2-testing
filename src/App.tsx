@@ -1,14 +1,6 @@
-import React from 'react'
+import type { JSX } from "react";
 
-
-export const App = () => {
-
-    const test = "testing husky"
-    // console.log(test);
-
-    return(
-        <h1> Hello from React + Typescript (no CRA)</h1>
-    )
-}
-
-
+export const App = (): JSX.Element => {
+  const _test = "testing husky with prettier";
+  return <h1>Hello from React + TypeScript</h1>;
+};
