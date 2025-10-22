@@ -3,7 +3,7 @@ import React from 'react'
 
 export const App = () => {
 
-    // const test = "Hello ESLint"
+    const test = "testing husky"
     // console.log(test);
 
     return(
